@@ -1,7 +1,6 @@
 import com.github.jknack.handlebars.Handlebars;
 import spark.ModelAndView;
 import spark.template.handlebars.HandlebarsTemplateEngine;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
@@ -32,7 +31,7 @@ public class App {
             return "Hello " + request.params(":name") + ", hoping all is well on your side.";
         }
         else if(request.params(":language").equals("sotho")){
-            return "Dumelang " + request.params(":name");
+            return "Dumelang le kai" + request.params(":name");
         }
         else {
             return "Language not selected " + request.params(":name") ;
@@ -44,7 +43,7 @@ public class App {
         }, new HandlebarsTemplateEngine());
 
         post("/hello", (req, res) -> {
-            Map<String, Object> map = new HashMap<>();
+            Map<String, Object> map = new HashMap<>(); //havent gone through Mappings
             // create the greeting message
             String username = req.queryParams("username");
             String greeting = "hello, " + username;
