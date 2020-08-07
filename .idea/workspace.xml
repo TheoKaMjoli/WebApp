@@ -3,13 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="bf413c12-c32d-45b9-84fc-46ea6f2e11f7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/index.hdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/MyFirstJavaWebApp-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/MyFirstJavaWebApp-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/heroku/app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/index.hbs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/heroku/app/target/MyFirstJavaWebApp-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/heroku/app/target/MyFirstJavaWebApp-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/public/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/public/index.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/templates/hello.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/target/heroku/app/target/classes/templates/hello.handlebars" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/heroku/app/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/heroku/app/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/heroku/build.tgz" beforeDir="false" afterPath="$PROJECT_DIR$/target/heroku/build.tgz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
@@ -106,30 +104,30 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="112" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1596458331711" />
-    <state width="1323" height="266" key="GridCell.Tab.0.bottom" timestamp="1596798355628">
+    <state width="1323" height="266" key="GridCell.Tab.0.bottom" timestamp="1596799569757">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1237" height="266" key="GridCell.Tab.0.bottom/0.0.1366.738/-1280.115.1280.994@-1280.115.1280.994" timestamp="1596552804446" />
     <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738/-1280.115.1280.994@0.0.1366.738" timestamp="1596519983295" />
-    <state width="1323" height="266" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1596798355628" />
-    <state width="1323" height="266" key="GridCell.Tab.0.center" timestamp="1596798355628">
+    <state width="1323" height="266" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1596799569757" />
+    <state width="1323" height="266" key="GridCell.Tab.0.center" timestamp="1596799569757">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1237" height="266" key="GridCell.Tab.0.center/0.0.1366.738/-1280.115.1280.994@-1280.115.1280.994" timestamp="1596552804446" />
     <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738/-1280.115.1280.994@0.0.1366.738" timestamp="1596519983295" />
-    <state width="1323" height="266" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1596798355628" />
-    <state width="1323" height="266" key="GridCell.Tab.0.left" timestamp="1596798355628">
+    <state width="1323" height="266" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1596799569757" />
+    <state width="1323" height="266" key="GridCell.Tab.0.left" timestamp="1596799569757">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1237" height="266" key="GridCell.Tab.0.left/0.0.1366.738/-1280.115.1280.994@-1280.115.1280.994" timestamp="1596552804446" />
     <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738/-1280.115.1280.994@0.0.1366.738" timestamp="1596519983295" />
-    <state width="1323" height="266" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1596798355628" />
-    <state width="1323" height="266" key="GridCell.Tab.0.right" timestamp="1596798355628">
+    <state width="1323" height="266" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1596799569757" />
+    <state width="1323" height="266" key="GridCell.Tab.0.right" timestamp="1596799569757">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1237" height="266" key="GridCell.Tab.0.right/0.0.1366.738/-1280.115.1280.994@-1280.115.1280.994" timestamp="1596552804446" />
     <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738/-1280.115.1280.994@0.0.1366.738" timestamp="1596519983295" />
-    <state width="1323" height="266" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1596798355628" />
+    <state width="1323" height="266" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1596799569757" />
     <state x="213" y="25" key="Maven.ArtifactSearchDialog" timestamp="1596705159244">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
