@@ -1,28 +1,32 @@
-
 <!doctype html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-<body>
-
+<body style="background-color:powderblue;">
+<center>
 <form action="/hello" method="post" >
-    <h1>Greet me</h1>
-    <input type="text" name="username">
-    <input type="submit" >
+    <head>
+        <title>Wushe</title>
+    </head>
+    <div class="container-fluid">
+        <legend><h1>Greet me</h1></legend>
+        <p><i>make your day</i></p>
+            <input type="text" name="username">
+            <input type="submit" >
+        {{greeting}}
+            <ul>
+                {{#each users}}
+                    <li>{{this}}</li>
+                {{/each}}
+            </ul>
+    </div>
 </form>
-<!-- remove this comment in your template, but otherwise the greeting tag is not displayed -->
-{{greeting}}
-<div>
-    <ul>
-        {{#each users}}
-            <li>{{this}}</li>
-        {{/each}}
-    </ul>
-</div>
+</center>
 </body>
 </html>
