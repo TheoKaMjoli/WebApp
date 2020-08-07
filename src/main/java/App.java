@@ -43,6 +43,12 @@ public class App {
             return new ModelAndView(map, "hello.handlebars");
         }, new HandlebarsTemplateEngine());
 
+        get("/", (req, res) -> {
+            res.redirect("/hello");
+            return null;
+        });
+
+
         post("/hello", (req, res) -> {
             Map<String, Object> map = new HashMap<>(); //havent gone through Mappings
             // create the greeting message
@@ -56,6 +62,9 @@ public class App {
             map.put("users", list);
             return new ModelAndView(map, "hello.handlebars");
         }, new HandlebarsTemplateEngine());
+
+
+
     }
     static int getHerokuAssignedPort() {
         ProcessBuilder processBuilder = new ProcessBuilder();
